@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+body {
+  width: 100%;
+  margin: 0;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.general-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff7ed;
+  height: 15vh;
+  padding: 0 3em;
+}
+
+.general-header > a > h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+}
+
+.general-header > nav > a {
+  margin-right: 2em;
+  font-size: 1.8rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.home-main {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8em 6em;
+  box-sizing: border-box;
+}
+
+.home-main > h1 {
+  margin: 0;
+  color: white;
+  font-size: 7.5rem;
+  text-align: left;
+}
+.home-main > p {
+  color: white;
+  font-size: 3.5rem;
+  text-align: left;
+  margin-bottom: 3em;
+}
+.home-main > button {
+  background: #ff8c38;
+  font-size: 2.5rem;
+  padding: 1.2em 2em;
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 15px;
+}
+.general-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #252525;
+  font-size: 2.5rem;
+  color: white;
+}
+.about-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  align-items: Center;
+}
+.about-main-img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.about-main-img > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about-right-section {
+  width: 100%;
+  padding: 0 3em 0em;
+}
+.about-main-summary > h1 {
+  font-size: 3.8rem;
+  text-align: left;
+}
+.about-main-summary > p {
+  font-size: 2.2rem;
+  line-height: 1.5em;
+  text-align: left;
+  font-weight: 500;
+}
+
+.about-main-button {
+  background: #ffcc8d;
+  display: flex;
+  flex-direction: column;
+  padding: 4em 4em;
+  margin-top: 5em;
+}
+.about-main-button > h3 {
+  text-align: left;
+  font-size: 3rem;
+  margin: 0;
+}
+.about-main-button > button {
+  background: #161616;
+  border-radius: 20px;
+  padding: 1em;
+  width: 40%;
+  border: none;
+  margin-top: 2em;
+  color: white;
+  font-size: 2rem;
+}
